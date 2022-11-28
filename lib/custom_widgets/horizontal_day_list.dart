@@ -47,7 +47,7 @@ class _HorizontalDayListState extends State<HorizontalDayList> {
   @override
   void initState() {
     super.initState();
-    SchedulerBinding.instance!.addPostFrameCallback((_) {
+    SchedulerBinding.instance.addPostFrameCallback((_) {
       date = DateTime.now();
       widget.dayUpdateFunction(weekdays[date.weekday - 1]);
       updateDayColor(date.weekday - 1);
