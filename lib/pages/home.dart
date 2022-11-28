@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
         content: Text(
       value,
       style: const TextStyle(
-          fontWeight: FontWeight.bold, fontSize: 20, color: Colors.redAccent),
+          fontWeight: FontWeight.bold, fontSize: 20, color: Colors.blue),
     )));
   }
 
